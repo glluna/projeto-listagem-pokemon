@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+    
+}
+.gif{
+    width: 100px;
+    
+    
+    
+}
+
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    
+    
+}
+.logo{
+    width: 5rem;
+}
+.lua{
+    width: 5rem;
+    background-color: transparent;
+}
+.cartao-pokemon{
+    display: flex;
+    flex-direction: column;
+    background-color: #999;
+    align-items: center;
+    width: 18rem;
+    padding: 40px;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 20px;
+    height: 27rem;
+
+}
+.informacoes{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+.decricao{
+    height: 150px;
+    overflow-y: scroll;
+    margin: 0;
+    padding-right: 10px;
+    font-size: 20pt;
+    color:aliceblue;
+    padding: 5px;
+}
+.listagem-botao{
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    gap: 5rem 50rem;
+    padding: 1% 7%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tipos{
+    display: flex;
+    
+    padding: 4% 10%;
+    list-style: none;
+    font-size: 20pt;
+    gap: 20px;
+    
+    
+}
+.body{
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+    gap: 20px 15px;
+    background-image: url('../img/76474427883430f2664fb570ac5c77c6.png') ;
+    min-height: 100%;
+}
+.tipo1f{
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.tipo1c{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
+.tipo1{
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.tipo2{
+    background-color: rgba(172, 9, 158, 0.911);
+    padding: 10px;
+    border-radius: 20px;
+}
+.botao{
+    background-color: transparent;
+    border: none;
+}
+.tipo1a{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.tipo1m{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 10px;
+}
